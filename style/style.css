@@ -71,7 +71,6 @@ body{
   border-radius: 10px;
   transition: 0.8s;
   font-size: clamp(1.2rem,1vw,1.5rem);
-  
 }
 
 .ul-header a:hover{
@@ -209,7 +208,7 @@ body{
 
 .cards-projeto{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
   border-radius: 10px;
   background-color: #0505D4;
   gap: 10px;
@@ -636,7 +635,12 @@ body{
     padding: 10px;
   }
 }
-@media screen and (max-width: 739px) and (min-width: 524px){
+@media screen and (min-width: 1000px){
+  .cards-projeto{
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  }
+}
+@media screen and (max-width: 769px) and (min-width: 524px){
 
   .card-projeto div{
     height: clamp(100px,25vw,200px);
@@ -646,17 +650,22 @@ body{
   }
 
 }
-@media screen and (max-width: 524px){
+@media screen and (max-width: 529px){
   .card-projeto{
     height: clamp(500px, 40vw,600px);
   }
   .card-projeto div{
     height: clamp(100px,48vw,280px);
+    
+  }
+  .card-projeto figcaption{
+    padding-top:15px;
   }
   .descricao{
     font-size: clamp(1.5rem,1.5vw,2rem);
   }
 }
+
 @media screen and (max-width: 412px){
   .card-projeto{
     height: clamp(470px, 40vw,500px);
