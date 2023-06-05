@@ -103,7 +103,7 @@ window.addEventListener("resize", function() {
 letters.forEach((item, index)=>{
   setTimeout(()=>{
     h3.innerHTML += item
-  }, 150 * index)
+  }, 200 * index)
 })
 
 

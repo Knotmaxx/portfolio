@@ -109,6 +109,9 @@ body{
   color: #0095ff;
   letter-spacing: 1px;
   font-family: 'Share Tech Mono', monospace;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+
 }
 .home-h3:after{
   content: "|";
@@ -190,7 +193,7 @@ body{
 
 .projetos{
   padding: 10px 10px 40px 10px;
-  background-color: #2E2E34;
+  background-color: rgb(26, 26, 28);
 }
 
 .projetos > header{
@@ -432,7 +435,7 @@ body{
 .sobre{
   padding: 20px;
   padding-bottom: 40px;
-  background-color: #2E2E34;
+  background-color: rgb(26, 26, 28);
 }
 
 .sobre > header{
@@ -450,6 +453,38 @@ body{
   border-radius: 10px;
   box-shadow: 3px 3px 3px black;
   overflow: hidden;
+}
+.btn-sobre{
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  margin-bottom: 4%;
+  border-radius: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  font-size: clamp(1.5rem,1.5vw,2rem);
+}
+
+.btn-sobre a{
+  display: block;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #1f67db;
+  transition: 0.5s;
+}
+.btn-sobre a:hover{
+  color: #1f67db;
+  background-color: white;
+}
+
+.btn-sobre a:active{
+  transition: 0s;
+  transform: scale(0.95);
 }
 @media screen and (min-width:750px){
   .c-sobre{
