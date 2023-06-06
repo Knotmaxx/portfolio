@@ -6,5 +6,4 @@ const skillDados = [[{name:"HTML",description:"HTML é uma linguagem de marcaç�
 ]
 
 
-
 export {skillDados}

@@ -92,7 +92,7 @@ window.addEventListener("scroll", ()=>{
 })
 
 window.addEventListener("resize", function() {
-  if (window.matchMedia("(min-width: 620px)").matches ){
+  if (window.matchMedia("(orientation: landscape)").matches ){
     menu.classList.remove('close')
     menu.classList.remove('open')
     menubtn.style.transform = 'rotate(0deg)'
