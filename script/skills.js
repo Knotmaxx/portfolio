@@ -1,7 +1,4 @@
 
-
-
-
 const skillDados = [
   [{name:"DEVELOPER",description:"Tenho habilidade com programação para entregar interatividade em seu site como botões, integração com google maps, menus, formulários e etc.", src:"assets/habilidades/developer.svg"}]
 ,[{name:"DESIGN",description:"Minha habilidade com design combina a identidade visual da sua marca de forma intuitiva e moderna para gerar uma boa experiência para seus usuários através do design.", src:"assets/habilidades/design.svg"}],
