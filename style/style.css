@@ -29,7 +29,6 @@ body{
   min-height: 100vh;
   font-family: 'poppins', sans-serif;
   margin: 0 auto;
-
 }
 
 .header{
@@ -80,7 +79,7 @@ body{
   display: none;
   color: #0095ff;
   width: 10%;
-  max-width: 100px; 
+  max-width: 50px; 
 }
 
 .home{
@@ -652,18 +651,10 @@ body{
     max-width: 300px;
   }
   
-  .card-projeto div{
-    height: 70vw;
-    min-height: 140px;
-    max-height: 250px;
-  }
-  
-  .c-sobre{
-    flex-direction: column-reverse;
-  }
+ 
 
   .c-sobre p {
-    padding: 10px;
+    padding: 5px;
   }
 }
 
@@ -732,7 +723,7 @@ body{
     max-height: 160px;
   }
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 749px){
   .c-sobre{
     flex-direction: column;
   }
